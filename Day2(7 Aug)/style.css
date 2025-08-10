@@ -1,4 +1,3 @@
-/* ====== Global Reset & Typography ====== */
 * {
   margin: 0;
   padding: 0;
@@ -13,7 +12,6 @@ body {
   transition: background 0.3s ease, color 0.3s ease;
 }
 
-/* ====== Header ====== */
 header {
   display: flex;
   justify-content: center;
@@ -92,7 +90,6 @@ header .branding img {
   box-shadow: 0 0 6px rgba(0, 102, 255, 0.6);
 }
 
-/* ====== Timeline Section ====== */
 main {
   max-width: 1200px;
   margin: auto;
@@ -105,18 +102,17 @@ main {
   margin-top: 3rem;
 }
 
-/* Event Box Centering & Styling */
 
 
 .event-header {
     display: flex;
     align-items: center;
-    gap: 10px; /* space between year and title */
+    gap: 10px; 
     margin-bottom: 10px;
 }
 
 .event-year {
-    color: #1E73BE; /* blue color like your screenshot */
+    color: #1E73BE; 
     font-weight: bold;
     font-size: 2rem;
 }
@@ -168,7 +164,7 @@ main {
   background-color: #004ecc;
 }
 
-/* ====== Modal ====== */
+
 #modal {
   position: fixed;
   top: 0;
@@ -194,7 +190,6 @@ main {
   width: 90%;
 }
 
-/* ====== Dark Mode ====== */
 body.dark-mode {
   background-color: #121212;
   color: #eee;
@@ -222,7 +217,6 @@ body.dark-mode .year-strip span.active::before {
   background-color: #1e90ff;
 }
 
-/* ====== Responsive Breakpoints ====== */
 @media (max-width: 767px) {
   .year-strip {
     gap: 1.5rem;
